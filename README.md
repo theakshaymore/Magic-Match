@@ -6,10 +6,10 @@ Memory Check Game is a simple project developed using ReactJs, HTML5, CSS, and J
 
 ## Features of the Game:
 
-The Memory Check Game project is simply in HTML, CSS, and JavaScript.
-The user has to click the two same images to make them disappear.
-The images are below the lock cover image.
-You just have to use your cursor to click the images according to the requirements.
+- The Memory Check Game project is simply in HTML, CSS, and JavaScript.
+- The user has to click the two same images to make them disappear.
+- The images are below the lock cover image.
+- You just have to use your cursor to click the images according to the requirements.
 
 ## How To Run the Project?
 

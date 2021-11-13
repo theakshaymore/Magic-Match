@@ -13,12 +13,11 @@ Memory Check Game is a simple project developed using ReactJs, HTML5, CSS, and J
 
 ## How To Run the Project?
 
-1. Clone this repository
-2. In the root of project directory, run following commands:
-
-### `npm install`
-
-### `npm start`
+- Clone this repository into your local machine
+  - git clone https://github.com/theakshaymore/Magic-Match.git
+- In the root of project directory, run following commands:
+  - npm install
+  - npm start
 
 ## Screenshots
 

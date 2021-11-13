@@ -22,5 +22,5 @@ You just have to use your cursor to click the images according to the requiremen
 
 ## Screenshots
 
-![mindmap] (./ss1.png)
-![mindmap] (./ss2.png)
+![screenshot](./ss1.png)
+![screenshot](./ss2.png)

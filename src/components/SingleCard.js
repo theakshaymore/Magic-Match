@@ -9,11 +9,11 @@ function SingleCard({ card, handleChoice, flipped, disabled }) {
 
   return (
     <div className="card">
-      <div className={flipped ? "flipped" : ""}>
+      <div className={flipped ? "flipped" : "card2"}>
         <img className="front" src={card.src} alt="card front" />
         <img
           className="back"
-          src="/img/cover.png"
+          src="https://i.imgur.com/OClDkeQ.jpeg"
           alt="card back"
           onClick={handleCkick}
         />

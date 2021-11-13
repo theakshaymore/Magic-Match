@@ -1,14 +1,19 @@
 import { useEffect, useState } from "react";
-import "./App.css";
 import SingleCard from "./components/SingleCard";
 
 const cardImages = [
-  { src: "/img/helmet-1.png", matched: false },
-  { src: "/img/potion-1.png", matched: false },
-  { src: "/img/ring-1.png", matched: false },
-  { src: "/img/scroll-1.png", matched: false },
-  { src: "/img/shield-1.png", matched: false },
-  { src: "/img/sword-1.png", matched: false },
+  { src: "https://i.imgur.com/z9zX4R8.png", matched: false },
+  { src: "https://i.imgur.com/Dd5cMfu.jpeg", matched: false },
+  {
+    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAG1romgALD8jd8VhydoLm9Znh22Re7w0eKA&usqp=CAU",
+    matched: false,
+  },
+  { src: "https://i.imgur.com/CtvriZJ.png", matched: false },
+  {
+    src: "https://i.imgur.com/npe1pig.jpeg",
+    matched: false,
+  },
+  { src: "https://i.imgur.com/xKA9AId.png", matched: false },
 ];
 
 function App() {
@@ -53,7 +58,7 @@ function App() {
       } else {
         setTimeout(() => {
           resetTurn();
-        }, 1000);
+        }, 800);
       }
     }
   }, [choiceOne, choiceTwo]);

@@ -47,6 +47,17 @@ button:hover {
   border-radius: 6px;
 }
 
+.card2 {
+  position: relative;
+}
+
+.front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* front of card - the picture */
 .card .front {
   transform: rotateY(90deg);

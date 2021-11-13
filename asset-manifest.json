@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/github.io/Magic-Match/static/css/main.2ffec421.chunk.css",
-    "main.js": "/github.io/Magic-Match/static/js/main.042c49b6.chunk.js",
-    "main.js.map": "/github.io/Magic-Match/static/js/main.042c49b6.chunk.js.map",
-    "runtime-main.js": "/github.io/Magic-Match/static/js/runtime-main.7d895c3d.js",
-    "runtime-main.js.map": "/github.io/Magic-Match/static/js/runtime-main.7d895c3d.js.map",
-    "static/js/2.9e59ae1a.chunk.js": "/github.io/Magic-Match/static/js/2.9e59ae1a.chunk.js",
-    "static/js/2.9e59ae1a.chunk.js.map": "/github.io/Magic-Match/static/js/2.9e59ae1a.chunk.js.map",
-    "index.html": "/github.io/Magic-Match/index.html",
-    "static/css/main.2ffec421.chunk.css.map": "/github.io/Magic-Match/static/css/main.2ffec421.chunk.css.map",
-    "static/js/2.9e59ae1a.chunk.js.LICENSE.txt": "/github.io/Magic-Match/static/js/2.9e59ae1a.chunk.js.LICENSE.txt"
+    "main.css": "/Magic-Match/static/css/main.2ffec421.chunk.css",
+    "main.js": "/Magic-Match/static/js/main.042c49b6.chunk.js",
+    "main.js.map": "/Magic-Match/static/js/main.042c49b6.chunk.js.map",
+    "runtime-main.js": "/Magic-Match/static/js/runtime-main.4becb39d.js",
+    "runtime-main.js.map": "/Magic-Match/static/js/runtime-main.4becb39d.js.map",
+    "static/js/2.9e59ae1a.chunk.js": "/Magic-Match/static/js/2.9e59ae1a.chunk.js",
+    "static/js/2.9e59ae1a.chunk.js.map": "/Magic-Match/static/js/2.9e59ae1a.chunk.js.map",
+    "index.html": "/Magic-Match/index.html",
+    "static/css/main.2ffec421.chunk.css.map": "/Magic-Match/static/css/main.2ffec421.chunk.css.map",
+    "static/js/2.9e59ae1a.chunk.js.LICENSE.txt": "/Magic-Match/static/js/2.9e59ae1a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7d895c3d.js",
+    "static/js/runtime-main.4becb39d.js",
     "static/js/2.9e59ae1a.chunk.js",
     "static/css/main.2ffec421.chunk.css",
     "static/js/main.042c49b6.chunk.js"

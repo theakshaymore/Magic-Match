@@ -1,9 +1,6 @@
 import { useEffect, useState } from "react";
 import SingleCard from "./components/SingleCard";
 
-import { ContextHolder } from "@frontegg/rest-api";
-import { AdminPortal, useAuth, useLoginWithRedirect } from "@frontegg/react";
-
 const cardImages = [
   { src: "https://i.imgur.com/z9zX4R8.png", matched: false },
   { src: "https://i.imgur.com/Dd5cMfu.jpeg", matched: false },
@@ -25,24 +22,6 @@ function App() {
   const [choiceOne, setChoiceOne] = useState(null);
   const [choiceTwo, setChoiceTwo] = useState(null);
   const [disabled, setDisabled] = useState(false);
-
-  const { user, isAuthenticated } = useAuth();
-  const loginWithRedirect = useLoginWithRedirect();
-
-  // useEffect(() => {
-  //   if (!isAuthenticated) {
-  //     loginWithRedirect();
-  //   }
-  // }, [isAuthenticated, loginWithRedirect]);
-
-  const logout = () => {
-    const baseUrl = ContextHolder.getContext().baseUrl;
-    window.location.href = `${baseUrl}/oauth/logout?post_logout_redirect_uri=${window.location}`;
-  };
-
-  const handleClick = () => {
-    AdminPortal.show();
-  };
 
   // shuffle cards
   const shuffleCards = () => {
@@ -113,31 +92,6 @@ function App() {
         ))}
       </div>
       <p>Turns: {turns}</p>
-      <hr />
-      <div>
-        {!isAuthenticated ? (
-          <button onClick={() => loginWithRedirect()}>Signin</button>
-        ) : (
-          <div>
-            <div>
-              <img src={user?.profilePictureUrl} alt={user?.name} />
-            </div>
-            <div className="detail">
-              <span className="heading">{user?.name}</span>
-            </div>
-            <br />
-            <div>
-              <button onClick={() => logout()} className="button">
-                Logout
-              </button>
-
-              {/* <button onClick={() => handleClick()} className="button">
-                View full Profile
-              </button> */}
-            </div>
-          </div>
-        )}
-      </div>
     </div>
   );
 }
